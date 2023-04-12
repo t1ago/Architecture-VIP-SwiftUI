@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2E1CD129DF3F1A00AA34EE /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E1CD029DF3F1A00AA34EE /* MemberView.swift */; };
+		3C2E1CD329DF400100AA34EE /* MemberModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E1CD229DF400100AA34EE /* MemberModels.swift */; };
+		3C6FB34729E440E100CE30C0 /* MemberAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FB34629E440E100CE30C0 /* MemberAPIModel.swift */; };
+		3C6FB34929E4445800CE30C0 /* MemberInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FB34829E4445800CE30C0 /* MemberInteractor.swift */; };
+		3C6FB34B29E4463700CE30C0 /* MemberAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6FB34A29E4463700CE30C0 /* MemberAPIWorker.swift */; };
+		3C95F74929DD953A00CF056F /* Arms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95F74829DD953A00CF056F /* Arms.swift */; };
+		3C9F583029E5809F00C36A96 /* MemberPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F582F29E5809F00C36A96 /* MemberPresenter.swift */; };
+		3C9F583529E58B2600C36A96 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F583429E58B2600C36A96 /* String.swift */; };
+		3C9F583729E58CB100C36A96 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F583629E58CB100C36A96 /* Image.swift */; };
+		3CB9A38729DD9C7000F75D2C /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A38629DD9C7000F75D2C /* HouseView.swift */; };
+		3CB9A38C29DDA39600F75D2C /* ArmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A38B29DDA39500F75D2C /* ArmsModel.swift */; };
+		3CB9A38E29DDAF5700F75D2C /* HouseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A38D29DDAF5700F75D2C /* HouseInteractor.swift */; };
+		3CB9A39029DDB00300F75D2C /* HouseAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A38F29DDB00300F75D2C /* HouseAPIWorker.swift */; };
+		3CB9A39229DDB0A100F75D2C /* HouseAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A39129DDB0A100F75D2C /* HouseAPIModel.swift */; };
+		3CB9A39429DDB19700F75D2C /* HouseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A39329DDB19700F75D2C /* HouseModels.swift */; };
+		3CB9A39629DDB2B900F75D2C /* HousePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9A39529DDB2B900F75D2C /* HousePresenter.swift */; };
+		3CDE0F2A29DAF0690020067B /* hp_vip_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE0F2929DAF0690020067B /* hp_vip_uiApp.swift */; };
+		3CDE0F2E29DAF06A0020067B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE0F2D29DAF06A0020067B /* Assets.xcassets */; };
+		3CDE0F3129DAF06A0020067B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE0F3029DAF06A0020067B /* Preview Assets.xcassets */; };
+		3CDE0F3B29DAF06A0020067B /* hp_vip_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE0F3A29DAF06A0020067B /* hp_vip_uiTests.swift */; };
+		3CDE0F4529DAF06A0020067B /* hp_vip_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE0F4429DAF06A0020067B /* hp_vip_uiUITests.swift */; };
+		3CDE0F4729DAF06A0020067B /* hp_vip_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE0F4629DAF06A0020067B /* hp_vip_uiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDE0F3729DAF06A0020067B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDE0F1E29DAF0690020067B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDE0F2529DAF0690020067B;
+			remoteInfo = "hp-vip-ui";
+		};
+		3CDE0F4129DAF06A0020067B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDE0F1E29DAF0690020067B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDE0F2529DAF0690020067B;
+			remoteInfo = "hp-vip-ui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2E1CD029DF3F1A00AA34EE /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
+		3C2E1CD229DF400100AA34EE /* MemberModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModels.swift; sourceTree = "<group>"; };
+		3C6FB34629E440E100CE30C0 /* MemberAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAPIModel.swift; sourceTree = "<group>"; };
+		3C6FB34829E4445800CE30C0 /* MemberInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInteractor.swift; sourceTree = "<group>"; };
+		3C6FB34A29E4463700CE30C0 /* MemberAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAPIWorker.swift; sourceTree = "<group>"; };
+		3C95F74829DD953A00CF056F /* Arms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arms.swift; sourceTree = "<group>"; };
+		3C9F582F29E5809F00C36A96 /* MemberPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPresenter.swift; sourceTree = "<group>"; };
+		3C9F583429E58B2600C36A96 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		3C9F583629E58CB100C36A96 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		3CB9A38629DD9C7000F75D2C /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
+		3CB9A38B29DDA39500F75D2C /* ArmsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmsModel.swift; sourceTree = "<group>"; };
+		3CB9A38D29DDAF5700F75D2C /* HouseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInteractor.swift; sourceTree = "<group>"; };
+		3CB9A38F29DDB00300F75D2C /* HouseAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseAPIWorker.swift; sourceTree = "<group>"; };
+		3CB9A39129DDB0A100F75D2C /* HouseAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseAPIModel.swift; sourceTree = "<group>"; };
+		3CB9A39329DDB19700F75D2C /* HouseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModels.swift; sourceTree = "<group>"; };
+		3CB9A39529DDB2B900F75D2C /* HousePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePresenter.swift; sourceTree = "<group>"; };
+		3CDE0F2629DAF0690020067B /* hp-vip-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hp-vip-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDE0F2929DAF0690020067B /* hp_vip_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hp_vip_uiApp.swift; sourceTree = "<group>"; };
+		3CDE0F2D29DAF06A0020067B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CDE0F3029DAF06A0020067B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CDE0F3629DAF06A0020067B /* hp-vip-uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hp-vip-uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDE0F3A29DAF06A0020067B /* hp_vip_uiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hp_vip_uiTests.swift; sourceTree = "<group>"; };
+		3CDE0F4029DAF06A0020067B /* hp-vip-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hp-vip-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDE0F4429DAF06A0020067B /* hp_vip_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hp_vip_uiUITests.swift; sourceTree = "<group>"; };
+		3CDE0F4629DAF06A0020067B /* hp_vip_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hp_vip_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDE0F2329DAF0690020067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3329DAF06A0020067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3D29DAF06A0020067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2E1CCF29DF3F0200AA34EE /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E1CD029DF3F1A00AA34EE /* MemberView.swift */,
+				3C6FB34829E4445800CE30C0 /* MemberInteractor.swift */,
+				3C9F582F29E5809F00C36A96 /* MemberPresenter.swift */,
+				3C2E1CD229DF400100AA34EE /* MemberModels.swift */,
+				3C6FB34A29E4463700CE30C0 /* MemberAPIWorker.swift */,
+			);
+			path = Members;
+			sourceTree = "<group>";
+		};
+		3C9F583129E58A2B00C36A96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F583429E58B2600C36A96 /* String.swift */,
+				3C9F583629E58CB100C36A96 /* Image.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3CB9A38829DDA35100F75D2C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F583129E58A2B00C36A96 /* Extension */,
+				3CB9A38A29DDA37E00F75D2C /* Models */,
+				3CB9A38929DDA36700F75D2C /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3CB9A38929DDA36700F75D2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C95F74829DD953A00CF056F /* Arms.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB9A38A29DDA37E00F75D2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CB9A38B29DDA39500F75D2C /* ArmsModel.swift */,
+				3CB9A39129DDB0A100F75D2C /* HouseAPIModel.swift */,
+				3C6FB34629E440E100CE30C0 /* MemberAPIModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CDE0F1D29DAF0690020067B = {
+			isa = PBXGroup;
+			children = (
+				3CDE0F2829DAF0690020067B /* hp-vip-ui */,
+				3CDE0F3929DAF06A0020067B /* hp-vip-uiTests */,
+				3CDE0F4329DAF06A0020067B /* hp-vip-uiUITests */,
+				3CDE0F2729DAF0690020067B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDE0F2729DAF0690020067B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE0F2629DAF0690020067B /* hp-vip-ui.app */,
+				3CDE0F3629DAF06A0020067B /* hp-vip-uiTests.xctest */,
+				3CDE0F4029DAF06A0020067B /* hp-vip-uiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDE0F2829DAF0690020067B /* hp-vip-ui */ = {
+			isa = PBXGroup;
+			children = (
+				3CB9A38829DDA35100F75D2C /* Common */,
+				3CDE0F5329DAF1A90020067B /* Scenes */,
+				3CDE0F2929DAF0690020067B /* hp_vip_uiApp.swift */,
+				3CDE0F2D29DAF06A0020067B /* Assets.xcassets */,
+				3CDE0F2F29DAF06A0020067B /* Preview Content */,
+			);
+			path = "hp-vip-ui";
+			sourceTree = "<group>";
+		};
+		3CDE0F2F29DAF06A0020067B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE0F3029DAF06A0020067B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CDE0F3929DAF06A0020067B /* hp-vip-uiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE0F3A29DAF06A0020067B /* hp_vip_uiTests.swift */,
+			);
+			path = "hp-vip-uiTests";
+			sourceTree = "<group>";
+		};
+		3CDE0F4329DAF06A0020067B /* hp-vip-uiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE0F4429DAF06A0020067B /* hp_vip_uiUITests.swift */,
+				3CDE0F4629DAF06A0020067B /* hp_vip_uiUITestsLaunchTests.swift */,
+			);
+			path = "hp-vip-uiUITests";
+			sourceTree = "<group>";
+		};
+		3CDE0F5329DAF1A90020067B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E1CCF29DF3F0200AA34EE /* Members */,
+				3CDE0F5429DAF1BB0020067B /* Houses */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3CDE0F5429DAF1BB0020067B /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				3CB9A38629DD9C7000F75D2C /* HouseView.swift */,
+				3CB9A38D29DDAF5700F75D2C /* HouseInteractor.swift */,
+				3CB9A39529DDB2B900F75D2C /* HousePresenter.swift */,
+				3CB9A39329DDB19700F75D2C /* HouseModels.swift */,
+				3CB9A38F29DDB00300F75D2C /* HouseAPIWorker.swift */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDE0F2529DAF0690020067B /* hp-vip-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDE0F4A29DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-ui" */;
+			buildPhases = (
+				3CDE0F2229DAF0690020067B /* Sources */,
+				3CDE0F2329DAF0690020067B /* Frameworks */,
+				3CDE0F2429DAF0690020067B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hp-vip-ui";
+			productName = "hp-vip-ui";
+			productReference = 3CDE0F2629DAF0690020067B /* hp-vip-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDE0F3529DAF06A0020067B /* hp-vip-uiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDE0F4D29DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-uiTests" */;
+			buildPhases = (
+				3CDE0F3229DAF06A0020067B /* Sources */,
+				3CDE0F3329DAF06A0020067B /* Frameworks */,
+				3CDE0F3429DAF06A0020067B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDE0F3829DAF06A0020067B /* PBXTargetDependency */,
+			);
+			name = "hp-vip-uiTests";
+			productName = "hp-vip-uiTests";
+			productReference = 3CDE0F3629DAF06A0020067B /* hp-vip-uiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CDE0F3F29DAF06A0020067B /* hp-vip-uiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDE0F5029DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-uiUITests" */;
+			buildPhases = (
+				3CDE0F3C29DAF06A0020067B /* Sources */,
+				3CDE0F3D29DAF06A0020067B /* Frameworks */,
+				3CDE0F3E29DAF06A0020067B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDE0F4229DAF06A0020067B /* PBXTargetDependency */,
+			);
+			name = "hp-vip-uiUITests";
+			productName = "hp-vip-uiUITests";
+			productReference = 3CDE0F4029DAF06A0020067B /* hp-vip-uiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDE0F1E29DAF0690020067B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3CDE0F2529DAF0690020067B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3CDE0F3529DAF06A0020067B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3CDE0F2529DAF0690020067B;
+					};
+					3CDE0F3F29DAF06A0020067B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3CDE0F2529DAF0690020067B;
+					};
+				};
+			};
+			buildConfigurationList = 3CDE0F2129DAF0690020067B /* Build configuration list for PBXProject "hp-vip-ui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDE0F1D29DAF0690020067B;
+			productRefGroup = 3CDE0F2729DAF0690020067B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDE0F2529DAF0690020067B /* hp-vip-ui */,
+				3CDE0F3529DAF06A0020067B /* hp-vip-uiTests */,
+				3CDE0F3F29DAF06A0020067B /* hp-vip-uiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDE0F2429DAF0690020067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDE0F3129DAF06A0020067B /* Preview Assets.xcassets in Resources */,
+				3CDE0F2E29DAF06A0020067B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3429DAF06A0020067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3E29DAF06A0020067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDE0F2229DAF0690020067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB9A38E29DDAF5700F75D2C /* HouseInteractor.swift in Sources */,
+				3C2E1CD329DF400100AA34EE /* MemberModels.swift in Sources */,
+				3CB9A39229DDB0A100F75D2C /* HouseAPIModel.swift in Sources */,
+				3C9F583029E5809F00C36A96 /* MemberPresenter.swift in Sources */,
+				3CB9A39629DDB2B900F75D2C /* HousePresenter.swift in Sources */,
+				3C6FB34B29E4463700CE30C0 /* MemberAPIWorker.swift in Sources */,
+				3C95F74929DD953A00CF056F /* Arms.swift in Sources */,
+				3CB9A38729DD9C7000F75D2C /* HouseView.swift in Sources */,
+				3CB9A39429DDB19700F75D2C /* HouseModels.swift in Sources */,
+				3CB9A39029DDB00300F75D2C /* HouseAPIWorker.swift in Sources */,
+				3CB9A38C29DDA39600F75D2C /* ArmsModel.swift in Sources */,
+				3C6FB34929E4445800CE30C0 /* MemberInteractor.swift in Sources */,
+				3C2E1CD129DF3F1A00AA34EE /* MemberView.swift in Sources */,
+				3C6FB34729E440E100CE30C0 /* MemberAPIModel.swift in Sources */,
+				3C9F583729E58CB100C36A96 /* Image.swift in Sources */,
+				3C9F583529E58B2600C36A96 /* String.swift in Sources */,
+				3CDE0F2A29DAF0690020067B /* hp_vip_uiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3229DAF06A0020067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDE0F3B29DAF06A0020067B /* hp_vip_uiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDE0F3C29DAF06A0020067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDE0F4729DAF06A0020067B /* hp_vip_uiUITestsLaunchTests.swift in Sources */,
+				3CDE0F4529DAF06A0020067B /* hp_vip_uiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDE0F3829DAF06A0020067B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDE0F2529DAF0690020067B /* hp-vip-ui */;
+			targetProxy = 3CDE0F3729DAF06A0020067B /* PBXContainerItemProxy */;
+		};
+		3CDE0F4229DAF06A0020067B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDE0F2529DAF0690020067B /* hp-vip-ui */;
+			targetProxy = 3CDE0F4129DAF06A0020067B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CDE0F4829DAF06A0020067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CDE0F4929DAF06A0020067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDE0F4B29DAF06A0020067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hp-vip-ui/Preview Content\"";
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3CDE0F4C29DAF06A0020067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hp-vip-ui/Preview Content\"";
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3CDE0F4E29DAF06A0020067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hp-vip-ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hp-vip-ui";
+			};
+			name = Debug;
+		};
+		3CDE0F4F29DAF06A0020067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hp-vip-ui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hp-vip-ui";
+			};
+			name = Release;
+		};
+		3CDE0F5129DAF06A0020067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hp-vip-ui";
+			};
+			name = Debug;
+		};
+		3CDE0F5229DAF06A0020067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J59PLV4WT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estudies.hp-vip-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hp-vip-ui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDE0F2129DAF0690020067B /* Build configuration list for PBXProject "hp-vip-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDE0F4829DAF06A0020067B /* Debug */,
+				3CDE0F4929DAF06A0020067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDE0F4A29DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDE0F4B29DAF06A0020067B /* Debug */,
+				3CDE0F4C29DAF06A0020067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDE0F4D29DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-uiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDE0F4E29DAF06A0020067B /* Debug */,
+				3CDE0F4F29DAF06A0020067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDE0F5029DAF06A0020067B /* Build configuration list for PBXNativeTarget "hp-vip-uiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDE0F5129DAF06A0020067B /* Debug */,
+				3CDE0F5229DAF06A0020067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDE0F1E29DAF0690020067B /* Project object */;
+}
